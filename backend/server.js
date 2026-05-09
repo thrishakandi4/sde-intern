@@ -22,7 +22,11 @@ const parseOrigins = (value, fallback = []) => {
     .filter(Boolean);
 };
 
-const allowedOrigins = parseOrigins(process.env.CLIENT_URL, ['http://localhost:3000', 'http://localhost:5173']);
+const allowedOrigins = [
+  'http://localhost:3000',
+  'http://localhost:5173',
+  'https://sde-intern-frontendfinal.onrender.com'
+];
 
 const app = express();
 const server = http.createServer(app);
