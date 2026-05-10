@@ -130,14 +130,9 @@ This application is ready to be deployed to your favorite hosting services.
 
 ### Backend
 
-1.  **Hosting**: Deploy the `backend` folder to a service like Render, Railway, or Fly.io.
-2.  **Environment Variables**: Set the `PORT`, `MONGO_URI`, and `CLIENT_URL` (pointing to your deployed frontend URL) in your hosting provider's environment settings.
+1.  **Hosting**: Deploy the `backend` folder to a service like Render.
+2.  **Environment Variables**: Set the `PORT`, `MONGO_URI` .
 3.  **Start Command**: The start command should be `npm start` or `node server.js`.
 
-## API Reference
-
-For detailed information on the available API endpoints, please see the [API Reference Guide](./API_REFERENCE.md).
-
+ 
 ---
-
-Happy coding!
